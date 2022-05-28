@@ -1,0 +1,51 @@
+body {
+  background-color: #fcecdd;
+}
+
+#addword {
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+  height: 40px;
+  font-size: 25px;
+  color: #293462;
+  border: none;
+  border-radius: 15px;
+  background-color: transparent;
+  font-family: "Courier New", Courier, monospace;
+}
+#letrero{
+    display: block;
+    margin-left: 760px;
+    margin-top: 300px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+   color: #293462;
+}
+.btnagregar {
+  margin-left: 750px;
+  margin-right: 40px;
+  
+  width: 200px;
+  height: 60px;
+  background-color: #fdd05a;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  color: #ff6701;
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+.btnprincipal{
+    width: 200px;
+    height: 60px;
+    color: white;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    background-color: #FF6701;
+}
+
