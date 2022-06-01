@@ -24,11 +24,25 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Permanent Marker', cursive;
+  margin-top:  20;
   font-size: 150px;
   width: 700px;
   height: 200px;
   color: rgb(8 27 75);
   text-shadow: 6px 6px 2px rgb(0 105 255);
+  animation: animate 3s ease-in-out;
+}
+@keyframes animate{
+ 
+ 
+  20%{
+    transform: translateY(-100px);
+    letter-spacing: 60px;
+    text-shadow: 20px 20px 10px rgb(0 105 255);
+    width: 1100px;
+   
+  }
+
 }
 
 .btnjugar {
