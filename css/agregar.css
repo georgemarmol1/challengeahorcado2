@@ -2,10 +2,20 @@ body {
   background-color: rgb(240 248 255);
 }
 
+main {
+  width: 40%;
+  height: 720px;
+  margin: 0 auto;
+  background: white;
+  border: solid 10px rgb(8 27 75);
+  border-radius: 30px;
+}
+
+
+
 #addword {
   display: block;
-  margin: auto;
-  margin-top: 200px;
+  margin: 100px auto;
   height: 40px;
   font-size: 25px;
   color: rgb(8 27 75);
@@ -14,19 +24,24 @@ body {
   background-color: transparent;
   font-family: "Courier New", Courier, monospace;
 }
-#letrero{
-    display: block;
-    margin-left: 760px;
-    margin-top: 300px;
-    margin-bottom: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    color: rgb(8 27 75);
+
+#letrero {
+  margin-top: 200px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  color: rgb(8 27 75);
 }
+
 .btnagregar {
-  margin-left: 750px;
-  margin-right: 40px;
-  
+  display: flex;
+  justify-items: center;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
   width: 200px;
   height: 60px;
   background-color: rgb(165 231 255);
@@ -40,7 +55,14 @@ body {
   font-family: 'Permanent Marker', cursive;
 }
 
-.btnprincipal{
+.btnprincipal {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
   width: 200px;
   height: 60px;
   color: white;
@@ -53,17 +75,19 @@ body {
   font-family: 'Permanent Marker', cursive;
   cursor: pointer;
 }
+
 .btnprincipal:hover {
   background-color: rgba(79, 77, 77, 0.74);
 }
+
 .btnagregar:hover {
   background-color: rgba(79, 77, 77, 0.74);
 
   color: white;
 }
 
-footer{
-  background: rgb(0 105 255);  
+footer {
+  background: rgb(0 105 255);
   display: flex;
   justify-content: center;
   width: 100%;
@@ -74,6 +98,7 @@ footer{
   margin: 0;
   padding: 0;
 }
+
 footer p {
   font-size: 20px;
   color: white;
